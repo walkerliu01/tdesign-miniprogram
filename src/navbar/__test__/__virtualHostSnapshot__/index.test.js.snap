@@ -17,7 +17,7 @@ exports[`navbar :base 1`] = `
           class="t-navbar__left t-class-left"
         >
           <wx-view
-            class="t-navbar__capsule"
+            class="t-navbar__capsule t-class-capsule"
           />
         </wx-view>
         <wx-view
@@ -52,7 +52,7 @@ exports[`navbar :base 2`] = `
           class="t-navbar__left t-class-left"
         >
           <wx-view
-            class="t-navbar__capsule"
+            class="t-navbar__capsule t-class-capsule"
           />
         </wx-view>
         <wx-view
@@ -87,7 +87,7 @@ exports[`navbar :base 3`] = `
           class="t-navbar__left t-class-left"
         >
           <wx-view
-            class="t-navbar__capsule"
+            class="t-navbar__capsule t-class-capsule"
           />
         </wx-view>
         <wx-view
@@ -122,7 +122,7 @@ exports[`navbar :fixed 1`] = `
           class="t-navbar__left t-class-left"
         >
           <wx-view
-            class="t-navbar__capsule"
+            class="t-navbar__capsule t-class-capsule"
           />
         </wx-view>
         <wx-view
@@ -145,7 +145,7 @@ exports[`navbar :menu button 1`] = `
   <t-navbar>
     <wx-view
       class="t-navbar t-navbar--fixed  class t-class"
-      style="--td-navbar-padding-top:20px; --td-navbar-right:414px; --td-navbar-capsule-height: 10px; --td-navbar-capsule-width:40px;"
+      style="--td-navbar-padding-top:20px; --td-navbar-right:414px; --td-navbar-capsule-height: 10px; --td-navbar-capsule-width: 40px; --td-navbar-height: -10px;"
     >
       <wx-view
         class="t-navbar__placeholder"
@@ -157,7 +157,7 @@ exports[`navbar :menu button 1`] = `
           class="t-navbar__left t-class-left"
         >
           <wx-view
-            class="t-navbar__capsule"
+            class="t-navbar__capsule t-class-capsule"
           />
         </wx-view>
         <wx-view

@@ -23,7 +23,7 @@ export default {
           name: 'used',
           meta: { docType: 'explain' },
           path: '/miniprogram/used',
-          component: () => import('@/../USED.md'),
+          component: () => import('@pages/used.vue'),
         },
         {
           title: '更新日志',
@@ -86,6 +86,13 @@ export default {
           meta: { docType: 'base' },
           path: '/miniprogram/components/icon',
           component: () => import('@/icon/README.md'),
+        },
+        {
+          title: 'Layout 布局',
+          name: 'layout',
+          meta: { docType: 'base' },
+          path: '/miniprogram/components/col',
+          component: () => import('@/col/README.md'),
         },
         {
           title: 'Link 链接',
